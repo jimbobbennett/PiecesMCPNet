@@ -8,12 +8,10 @@
 
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
-    <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
   </PropertyGroup>
 
-  <ItemGroup><!-- <PackageReference Include="MCPSharp" Version="1.0.4" /> -->
-  
-    <ProjectReference Include="..\MCPSharp\MCPSharp\MCPSharp.csproj" />
+  <ItemGroup>
+    <PackageReference Include="MCPSharp" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
